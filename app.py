@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Dashboard Etco Tur - Março 2025", page_icon="🚌", layout="wide")
 
-st.image("logo.png", width=250)
+# st.image("logo.png", width=250)
 st.title("Etco Tur - Viagens Março 2025")
 
 uploaded_file = st.file_uploader("Carregar novo relatório Excel", type=["xlsx"])
